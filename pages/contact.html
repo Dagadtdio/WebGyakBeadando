@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand mx-auto" href="#" style="font-size: 1.5rem; font-weight: bold;">Sándor Könyv Blogja</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Főoldal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kedv.html"><i class="fas fa-star"></i> 5 Kedvenc Könyvem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="wait.html"><i class="fas fa-clock"></i> Várható Könyvek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="table.html"><i class="fas fa-table"></i> Olvasott Könyvek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html"><i class="fas fa-envelope"></i> Kapcsolat</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="container mt-4">
+        <h1 class="text-center"><i class="fas fa-envelope text-primary"></i> Kapcsolat</h1>
+        <p class="text-center text-muted">Ha bármilyen kérdésed van, vedd fel velem a kapcsolatot az alábbi űrlap segítségével.</p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container mt-4">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title text-center"><i class="fas fa-paper-plane text-info"></i> Írj nekem</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name"><i class="fas fa-user"></i> Név</label>
+                        <input type="text" class="form-control" id="name" placeholder="Add meg a neved" >
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Add meg az email címed" >
+                    </div>
+                    <div class="form-group">
+                        <label for="subject"><i class="fas fa-tag"></i> Tárgy</label>
+                        <input type="text" class="form-control" id="subject" placeholder="Add meg az üzenet tárgyát"  >
+                    </div>
+                    <div class="form-group">
+                        <label for="message"><i class="fas fa-comment"></i> Üzenet</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Írd meg az üzeneted" ></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone"><i class="fas fa-phone"></i> Telefonszám</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Add meg a telefonszámod" >
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-paper-plane"></i> Küldés</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Location Section -->
+    <div class="container mt-5">
+        <h2 class="text-center"><i class="fas fa-map-marker-alt text-danger"></i> Elérhetőségünk</h2>
+        <div class="row mt-4">
+            <div class="col-md-4 text-center">
+                <img src="../images/IMG_9271-Enhanced-NR.jpg" alt="Location Image 1" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="../images/IMG_9265-Enhanced-NR.jpg" alt="Location Image 2" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="../images/IMG_9016.jpg" alt="Location Image 3" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5">
+        <p>&copy; 2025 Sándor Könyv Blogja. Minden jog fenntartva.</p>
+    </footer>
+
+    <script src="../js/validation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
