@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Könyvek Táblázata</title>
+    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+   <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+        <a class="navbar-brand mx-auto" href="#" style="font-size: 1.5rem; font-weight: bold;">Sándor Könyv Blogja</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Főoldal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kedv.html"><i class="fas fa-star"></i> 5 Kedvenc Könyvem</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wait.html"><i class="fas fa-clock"></i> Várható Könyvek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="table.html"><i class="fas fa-table"></i> Olvasott Könyvek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Kapcsolat</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Page Header -->
+    <div class="container mt-4">
+        <h1 class="text-center"><i class="fas fa-book"></i> Könyvek Táblázata</h1>
+        <p class="text-center text-muted">Az alábbi táblázat a kedvenc könyveimet tartalmazza részletes adatokkal.</p>
+    </div>
+
+    <!-- Table Section -->
+    <div class="container mt-4">
+        <table class="table table-bordered table-hover table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th><i class="fas fa-book"></i> Cím</th>
+                    <th><i class="fas fa-user"></i> Szerző</th>
+                    <th><i class="fas fa-tags"></i> Műfaj</th>
+                    <th><i class="fas fa-calendar-alt"></i> Kiadás éve</th>
+                    <th><i class="fas fa-star"></i> Értékelés</th>
+                    <th><i class="fas fa-comment"></i> Rövid megjegyzés</th>
+                    <th><i class="fas fa-book-reader"></i> Olvasás formátuma</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Máglya</td><td>Dragomán György</td><td>Regény</td><td>2014</td><td>★★★★★</td><td>Lassan építkező, mégis katartikus.</td><td>Nyomtatott</td></tr>
+                <tr><td>2</td><td>Kitömött barbár</td><td>Péterfy Gergely</td><td>Történelmi regény</td><td>2014</td><td>★★★★★</td><td>Kultúrtörténeti mestermunka.</td><td>E-könyv</td></tr>
+                <tr><td>3</td><td>A fehér király</td><td>Dragomán György</td><td>Regény</td><td>2005</td><td>★★★★☆</td><td>Nyomasztó, de zseniálisan megírt.</td><td>Nyomtatott</td></tr>
+                <tr><td>4</td><td>A nyugalom</td><td>Bartis Attila</td><td>Lélektani regény</td><td>2001</td><td>★★★★★</td><td>Letaglózóan őszinte és fájdalmas.</td><td>E-könyv</td></tr>
+                <tr><td>5</td><td>Tisztás</td><td>Ottlik Géza</td><td>Regény</td><td>1959</td><td>★★★★☆</td><td>Nehéz, de érdemes.</td><td>Nyomtatott</td></tr>
+                <tr><td>6</td><td>A velencei kurtizán</td><td>Sarah Dunant</td><td>Történelmi regény</td><td>2006</td><td>★★★★☆</td><td>Hiteles korrajz, izgalmas női nézőpont.</td><td>Könyvtárból kölcsönözve</td></tr>
+                <tr><td>7</td><td>Varázshegy</td><td>Thomas Mann</td><td>Klasszikus regény</td><td>1924</td><td>★★★★☆</td><td>Intellektuális kihívás.</td><td>Nyomtatott</td></tr>
+                <tr><td>8</td><td>A pokol tornácán</td><td>Dante Alighieri</td><td>Eposz</td><td>1308–1320</td><td>★★★★☆</td><td>Klasszikus méltósággal.</td><td>Hangoskönyv</td></tr>
+                <tr><td>9</td><td>Kételyek</td><td>Gillian Flynn</td><td>Thriller</td><td>2015</td><td>★★★☆☆</td><td>Fordulatos, de néhol sablonos.</td><td>E-könyv</td></tr>
+                <tr><td>10</td><td>Az éhezők viadala</td><td>Suzanne Collins</td><td>Ifjúsági disztópia</td><td>2008</td><td>★★★★☆</td><td>Letehetetlen, mégis gondolatébresztő.</td><td>Hangoskönyv</td></tr>
+                <tr><td>11</td><td>Tóparti történet</td><td>Kazuo Ishiguro</td><td>Regény</td><td>2015</td><td>★★★★★</td><td>Finom és mély emberi fájdalmak.</td><td>Nyomtatott</td></tr>
+                <tr><td>12</td><td>Az árnyék neve</td><td>Patrick Rothfuss</td><td>Fantasy</td><td>2007</td><td>★★★★☆</td><td>Csodaszép világépítés.</td><td>E-könyv</td></tr>
+                <tr><td>13</td><td>A nagy Gatsby</td><td>F. Scott Fitzgerald</td><td>Klasszikus regény</td><td>1925</td><td>★★★★★</td><td>Tömör, lírai és időtálló.</td><td>Nyomtatott</td></tr>
+                <tr><td>14</td><td>A fiú, akit Karácsonynak hívnak</td><td>Matt Haig</td><td>Gyerekirodalom</td><td>2015</td><td>★★★★☆</td><td>Szívhez szóló ünnepi mese.</td><td>Hangoskönyv</td></tr>
+                <tr><td>15</td><td>Végtelen tréfa</td><td>David Foster Wallace</td><td>Posztmodern regény</td><td>1996</td><td>★★★★☆</td><td>Labirintus-szerű, zseniális.</td><td>E-könyv</td></tr>
+                <tr><td>16</td><td>A mindenség elmélete</td><td>Stephen Hawking</td><td>Ismeretterjesztő</td><td>2002</td><td>★★★★☆</td><td>Közérthető, mégis mély.</td><td>Nyomtatott</td></tr>
+                <tr><td>17</td><td>Az ajtó</td><td>Szabó Magda</td><td>Regény</td><td>1987</td><td>★★★★★</td><td>Erős nőalakok, emlékezetes.</td><td>E-könyv</td></tr>
+                <tr><td>18</td><td>1984</td><td>George Orwell</td><td>Disztópia</td><td>1949</td><td>★★★★★</td><td>Elgondolkodtató és örökérvényű.</td><td>Hangoskönyv</td></tr>
+                <tr><td>19</td><td>Sötét erdő</td><td>Cixin Liu</td><td>Sci-fi</td><td>2008</td><td>★★★★☆</td><td>Nagyívű, filozofikus sci-fi.</td><td>E-könyv</td></tr>
+                <tr><td>20</td><td>A marsi</td><td>Andy Weir</td><td>Sci-fi</td><td>2011</td><td>★★★★★</td><td>Tech-humor és túlélés mesterszintre emelve.</td><td>Hangoskönyv</td></tr>
+                <tr><td>21</td><td>A kis herceg</td><td>Antoine de Saint-Exupéry</td><td>Allegorikus mese</td><td>1943</td><td>★★★★★</td><td>Minden korban másért szeretem.</td><td>Nyomtatott</td></tr>
+                <tr><td>22</td><td>A gyűrűk ura</td><td>J.R.R. Tolkien</td><td>Fantasy</td><td>1954</td><td>★★★★★</td><td>Mesteri világ, máig etalon.</td><td>E-könyv</td></tr>
+                <tr><td>23</td><td>Frankenstein</td><td>Mary Shelley</td><td>Klasszikus horror</td><td>1818</td><td>★★★★☆</td><td>Meglepően modern kérdések.</td><td>Hangoskönyv</td></tr>
+                <tr><td>24</td><td>A sátántangó</td><td>Krasznahorkai László</td><td>Avantgárd regény</td><td>1985</td><td>★★★★☆</td><td>Sűrű, súlyos és felkavaró.</td><td>Nyomtatott</td></tr>
+                <tr><td>25</td><td>Földi halandók</td><td>Nádas Péter</td><td>Esszék, elmélkedés</td><td>2022</td><td>★★★★☆</td><td>Lassan bontakozó mélyfúrás az emberbe.</td><td>Könyvtárból kölcsönözve</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center mt-5">
+        <p>&copy; 2025 Sándor Könyv Blogja. Minden jog fenntartva.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
